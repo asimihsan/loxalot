@@ -10,6 +10,7 @@ name = "loxalot"
 path = "src/main.rs"
 
 [dependencies]
-clap = "3.1.6"
+clap = { version = "3.1.6", features = ["derive"] }
 env_logger = "0.9.0"
+log = "0.4.16"
 loxalot-scanning = { path = "../../lib/loxalot-scanning" }
