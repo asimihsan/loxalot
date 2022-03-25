@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "bin/loxalot-cli",
+    "lib/loxalot-scanning",
+]
+
+[profile.release]
+lto = true
+codegen-units = 1
